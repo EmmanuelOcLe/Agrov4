@@ -1,0 +1,65 @@
+.main-container{
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container{
+  width: 40%;
+  box-shadow: 0 0 10px #666;
+  border-radius: 10px;
+  padding: 2em 1em;
+}
+
+.system-state{
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.state-error{
+  background-color: red;
+}
+
+.state-succes{
+  background-color: green;
+}
+
+.login-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.login-form label{
+  margin: 0 auto;
+}
+
+.login-form input[type="text"], .login-form input[type="password"]{
+  padding: 5px;
+  font-size: larger;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.submit-button{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #39A900;
+  cursor: pointer;
+  color: #fff;
+  transition: background 100ms;
+}
+
+.submit-button:hover{
+  background-color: #2d8502;
+}
+
+.register-link{
+  display: inline-block;
+  margin-top: 1em;
+}
